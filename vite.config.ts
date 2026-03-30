@@ -10,7 +10,7 @@ export default defineConfig({
     port: 5173,
     open: false,
     hmr: {
-      host: "local.vq.lab",
+      host: "localhost",
       port: 5174,
       clientPort: 4443,
       protocol: "wss",
